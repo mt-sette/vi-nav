@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Vim Navigation",
+	"version": "1.0",
+	"description": "My first browser extension.",
+	"action": {
+		"default_icon": {
+			"48": "icon.png"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["main.js"]
+		}
+	]
+}
