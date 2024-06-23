@@ -4,7 +4,7 @@ document.addEventListener('keydown', function (e) {
      * TODO: handle more keys or provide customization options
      * TODO: add option for disabling the extension on specific websites
      */
-    const scrollAmount = 100; // Or fetch from extension settings
+    const scrollAmount = 200; // Or fetch from extension settings
     const activeElementTag = document.activeElement.tagName;
 
     // Check if the user is not focused on input fields
@@ -19,6 +19,39 @@ document.addEventListener('keydown', function (e) {
             case 'k':
                 window.scrollTo({
                     top: window.scrollY - scrollAmount,
+                    behavior: 'smooth',
+                });
+                break;
+            case 'H':
+                window.history.back();
+                break;
+            case 'L':
+                window.history.forward();
+                break;
+            case 'r':
+                window.location.reload();
+                break;
+            case 'g':
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth',
+                });
+                break;
+            case 'G':
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth',
+                });
+                break;
+            case 'd':
+                window.scrollTo({
+                    top: window.scrollY + window.innerHeight / 2,
+                    behavior: 'smooth',
+                });
+                break;
+            case 'u':
+                window.scrollTo({
+                    top: window.scrollY - window.innerHeight / 2,
                     behavior: 'smooth',
                 });
                 break;

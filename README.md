@@ -30,11 +30,13 @@ Once installed, `vi-nav` works out of the box with the default Vim key bindings.
 
 -   `j`: Scroll down
 -   `k`: Scroll up
-    **future implemantation**
 -   `H`: Go back in history
 -   `L`: Go forward in history
--   `gt`: Go to the next tab
--   `gT`: Go to the previous tab
+-   `g`: Go to the top of the page
+-   `G`: Go to the end of the page
+-   `d`: Scroll half page down
+-   `u`: Scroll half page up
+-   `r`: Reload the page
 
 For a full list of commands and customization options, please refer to the [documentation](#).
 
