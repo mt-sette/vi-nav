@@ -1,4 +1,4 @@
-# vi-nav
+# vim-nav
 
 Enhance your web browsing experience with `vi-nav`, a lightweight browser extension that brings the efficiency of Vim-style key bindings to navigation. Scroll through pages, navigate links, and manage your browser tabs using familiar Vim commands, all from the comfort of your keyboard.
 
