@@ -1,6 +1,8 @@
 # vim-nav
 
-Enhance your web browsing experience with `vi-nav`, a lightweight browser extension that brings the efficiency of Vim-style key bindings to navigation. Scroll through pages, navigate links, and manage your browser tabs using familiar Vim commands, all from the comfort of your keyboard.
+**Under development**.
+
+Enhance your web browsing experience with `vim-nav`, a lightweight browser extension that brings the efficiency of Vim-style key bindings to navigation. Scroll through pages, navigate links, and manage your browser tabs using familiar Vim commands, all from the comfort of your keyboard.
 
 ## Features
 
@@ -8,25 +10,25 @@ Enhance your web browsing experience with `vi-nav`, a lightweight browser extens
 
 ## Installation
 
-Currently, `vi-nav` is available for Chrome and Firefox. Follow the steps below to install:
+Currently, `vim-nav` is available for Chrome and Firefox. Follow the steps below to install:
 
 ### Chrome
 
-1. Download the latest release from the [GitHub repository](#).
+1. ~~Download the latest release from the [GitHub repository](#).~~ Clone the project
 2. Navigate to `chrome://extensions/` in your Chrome browser.
 3. Enable "Developer mode" at the top right.
 4. Click "Load unpacked" and select the downloaded extension directory.
 
 ### Firefox
 
-1. Download the latest release from the [GitHub repository](#).
+1. ~~Download the latest release from the [GitHub repository](#).~~ Clone the project
 2. Navigate to `about:addons` in your Firefox browser.
 3. Click on the gear icon and select "Install Add-on From File."
-4. Choose the downloaded `.xpi` file and install.
+4. ~~Choose the downloaded `.xpi` file and install.~~ Not yet available
 
 ## Usage
 
-Once installed, `vi-nav` works out of the box with the default Vim key bindings. Here are some of the default commands:
+Once installed, `vim-nav` works out of the box with the default Vim key bindings. Here are some of the default commands:
 
 -   `j`: Scroll down
 -   `k`: Scroll up
@@ -38,7 +40,7 @@ Once installed, `vi-nav` works out of the box with the default Vim key bindings.
 -   `u`: Scroll half page up
 -   `r`: Reload the page
 
-For a full list of commands and customization options, please refer to the [documentation](#).
+~~For a full list of commands and customization options, please refer to the [documentation](#).~~
 
 ## Contributing
 
